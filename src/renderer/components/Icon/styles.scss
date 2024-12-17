@@ -1,0 +1,19 @@
+@import '../../../../assets/colors.module.scss';
+
+.custom-icon {
+  color: $gray;
+}
+
+.disable-icon {
+  cursor: context-menu;
+  color: $background;
+  pointer-events: none;
+}
+
+.icon-clickable {
+  cursor: pointer;
+
+  &:hover {
+    color: $primary !important;
+  }
+}

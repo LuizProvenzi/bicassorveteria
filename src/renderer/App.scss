@@ -1,0 +1,43 @@
+@import '../../assets/colors.module.scss';
+
+html,
+body {
+  background-color: $background;
+}
+
+.layout {
+  background-color: $background;
+  height: 100vh;
+}
+
+.content {
+  padding-top: 15vh !important;
+  overflow-y: auto;
+  height: 100%;
+  justify-content: center;
+  position: relative;
+  z-index: 1099;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $black;
+  border-radius: 4px;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.link-no-underline {
+  text-decoration: none;
+}
+
+.content-container {
+  width: 1050px;
+  margin-top: 25px;
+}
